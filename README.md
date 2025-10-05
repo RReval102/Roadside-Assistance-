@@ -46,6 +46,7 @@
 
 
 ## 📁 Структура
+```
 roadside-assistance/
 ├─ .gitignore
 
@@ -118,7 +119,7 @@ roadside-assistance/
 ├─ values/strings.xml
 
 └─ mipmap-anydpi-v26/ic_launcher.xml
-
+```
 
 ## 🗺️ Роадмап
 - 🔜 Геолокация и карта (Google Maps + маркер заявки).
