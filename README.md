@@ -48,40 +48,75 @@
 ## 📁 Структура
 roadside-assistance/
 ├─ .gitignore
+
 ├─ README.md
+
 ├─ settings.gradle.kts
+
 ├─ build.gradle.kts
+
 └─ app/
+
 ├─ build.gradle.kts
+
 └─ src/
+
 └─ main/
+
 ├─ AndroidManifest.xml
+
 ├─ kotlin/
+
 │ └─ com/roadside/assistant/
+
 │ ├─ RoadsideApp.kt
+
 │ ├─ MainActivity.kt
+
 │ ├─ NavGraph.kt
+
 │ ├─ data/
+
 │ │ ├─ model/
+
 │ │ │ ├─ Request.kt
+
 │ │ │ ├─ Offer.kt
+
 │ │ │ ├─ User.kt
+
 │ │ │ └─ ChatMessage.kt
+
 │ │ ├─ RequestRepository.kt
+
 │ │ └─ InMemoryRequestRepository.kt
+
 │ ├─ feature/
+
 │ │ ├─ list/RequestListScreen.kt
+
 │ │ ├─ list/RequestListViewModel.kt
+
 │ │ ├─ create/CreateRequestScreen.kt
+
 │ │ ├─ create/CreateRequestViewModel.kt
+
 │ │ ├─ detail/RequestDetailScreen.kt
+
 │ │ └─ detail/RequestDetailViewModel.kt
+
 │ └─ ui/theme/
+
 │ ├─ Color.kt
+
 │ ├─ Theme.kt
+
 │ └─ Type.kt
+
 └─ res/
+
 ├─ values/strings.xml
+
 └─ mipmap-anydpi-v26/ic_launcher.xml
 
 
